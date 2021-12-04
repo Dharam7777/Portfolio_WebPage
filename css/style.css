@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+body {
+    font-size: 16px;
+    background:black ;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+
+    padding:0;
+    text-decoration: none;
+    margin:0;
+    box-sizing: border-box;
+}
+a
+{
+    color:rgb(255, 24, 24);
+}
+
+
+
+
+nav{
+    position: fixed;
+    width:100%;
+    transition: all 0.6s ease;
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+nav.sticky{
+    padding:13px 0;
+    background: rgb(57, 66, 66);
+    
+}
+
+nav .navbar{
+justify-content: space-between;
+align-items: center;
+width:100%;
+display: flex;
+padding:0 16px;
+
+
+}
+
+
+nav .navbar .brand{
+    
+    font-weight: :600;
+    text-decoration:none;
+    font-size:30px;
+    display: block;
+    text-align:center;
+    pointer-events: none;
+}
+
+
+.topnav a{
+    float: left;
+    display: block;
+    color:rgb(255, 24, 24) ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;    
+}
+
+.topnav .icon {
+    display: none;
+  }
+
+
+.home{
+    height: 100vh;
+    width:100%;
+    font-family: 'Roboto', sans-serif;   
+   
+   color:rgb(255, 24, 24);
+
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.home .home-content{
+    height:100%;
+    /*width:90%;*/
+    padding: 25px;
+    margin:auto;
+    display:flex;
+    /*flex-direction:column;*/
+    justify-content:space-between;
+    align-items: center;
+
+
+}
+
+
+.twitter{
+    margin-bottom: 10px;
+}
+
+.linkedin{
+    margin-bottom: 10px;
+}
+
+.github{
+    margin-bottom: 10px;
+}
+
+.instagram{
+    margin-bottom: 10px;
+}
+
+
+
+
+.home .text .one{
+    font-size: 25px;
+    color: #FFF;
+}
+.home .text .two{
+    font-size: 40px;
+    font-weight: 600; 
+    margin-left: -3px;
+    
+}
+.home .text .three{
+    font-size: 23px;
+    margin: 5px 0;
+    color: #FFF;
+}
+
+ button{
+    margin:14px 0;
+    outline:none;
+    color:#FFF;
+    background:rgb(255, 24, 24) ;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 500;
+    border:2px solid transparent;
+    border-radius: 15px;
+    transition:all 0.4s ease;
+}
+
+ button:hover{
+    color:rgb(255, 24, 24);
+    background-color: #FFF;
+    border-color: rgb(255, 24, 24);
+}
+
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    color:rgb(255, 24, 24);
+    padding-bottom: 18px;
+  
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding: 25px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.cb{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(107, 102, 102, 0.6);
+
+}
+.left{
+    background:url("../Images/2.PNG") no-repeat center ;
+    background-size: cover;
+    height: 100%;
+}
+
+.right{
+    padding: 20px 33px;
+}
+
+.field{
+    width: 100%;
+    border: 2px solid rgba(0,0,0,0);
+    outline:none;
+    background-color: #FFF;
+    padding: 0.7rem 1.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+    border-radius: 5px;
+}
+.field:hover{
+    background-color: wheat;
+}
+
+textarea{
+    min-height: 80px;
+}
+
+
+
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding:25px;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+.img_con2{
+height: 300px;
+border-radius: 150px;
+}
+
+.img{
+    display:flex;
+    align-items: center;
+}
+
+.exp{
+
+    width:275px;
+    height:250px;
+    box-shadow: 5px 5px 20px rgb(233, 229, 229);
+    margin:20px;
+
+}
+
+.main_exp{
+    display: flex;
+    justify-content: space-around;
+}
+.experience,.skill-container{
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+    text-align: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    width:100%;
+}
+
+h4{
+    padding:10px;
+    color: rgb(255, 24, 24);
+}
+
+.on{
+    color: white;
+    padding: 10px;
+}
+.to{
+    color: slategray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+
+.main_skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sk_box{
+    width:365px;
+    height:313px;
+    box-shadow: 5px 5px 20px rgb(233, 229, 229);
+    padding:10px;
+    margin:20px;
+}
+
+
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bar{
+    position:relative;
+    border:2px solid rgb(255, 24, 24);
+    border-radius: 20px;
+}
+
+.bar div{
+    position: relative;
+    width: 90%;
+    height: 9px;
+    border-radius: 10px;
+    background-color:rgb(255, 24, 24) ;
+}
+
+.skills:not(:last-child){
+    margin-bottom: 27px;
+}
+
+.details span{
+    color:white;
+}
+
+.skills{
+    margin-top: 10px;
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+/*1st bar*/
+
+#progressbar1{
+    background-color: black;
+    border-radius: 13px;
+    border: 2px solid rgb(255, 24, 24);
+    padding: 1px;
+    margin-top: 11px;
+
+  }
+  
+  #progressbar1>div {
+    background-color: rgb(255, 24, 24);
+    width: 85%;
+    
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+
+/*2st bar*/
+
+#progressbar2 {
+    background-color: black;
+    border-radius: 13px;
+    border: 2px solid rgb(255, 24, 24);
+    padding: 1px;
+    margin-top: 11px;
+
+  }
+  
+  #progressbar2>div {
+    background-color: rgb(255, 24, 24);
+    width: 70%;
+    
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  /*3rd bar*/
+
+#progressbar3{
+    background-color: black;
+    border-radius: 13px;
+    border: 2px solid rgb(255, 24, 24);
+    padding: 1px;
+    margin-top: 11px;
+
+  }
+  
+  #progressbar3>div {
+    background-color: rgb(255, 24, 24);
+    width: 75%;
+    
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  /*4th bar*/
+
+#progressbar4 {
+    background-color: black;
+    border-radius: 13px;
+    border: 2px solid rgb(255, 24, 24);
+    padding: 1px;
+    margin-top: 11px;
+
+  }
+  
+  #progressbar4>div {
+    background-color: rgb(255, 24, 24);
+    width: 50%;
+    
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  /*5st bar*/
+
+#progressbar5{
+    background-color: black;
+    border-radius: 13px;
+    border: 2px solid rgb(255, 24, 24);
+    padding: 1px;
+    margin-top: 11px;
+
+  }
+  
+  #progressbar5>div {
+    background-color: rgb(255, 24, 24);
+    width: 85%;
+    
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+
+/*6th bar*/
+
+#progressbar6 {
+    background-color: black;
+    border-radius: 13px;
+    border: 2px solid rgb(255, 24, 24);
+    padding: 1px;
+    margin-top: 11px;
+
+  }
+  
+  #progressbar6>div {
+    background-color: rgb(255, 24, 24);
+    width: 70%;
+    
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  /*7th bar*/
+
+#progressbar7{
+    background-color: black;
+    border-radius: 13px;
+    border: 2px solid rgb(255, 24, 24);
+    padding: 1px;
+    margin-top: 11px;
+
+  }
+  
+  #progressbar7>div {
+    background-color: rgb(255, 24, 24);
+    width: 55%;
+    
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  /*8th bar*/
+
+#progressbar8 {
+    background-color: black;
+    border-radius: 13px;
+    border: 2px solid rgb(255, 24, 24);
+    padding: 1px;
+    margin-top: 11px;
+
+  }
+  
+  #progressbar8>div {
+    background-color: rgb(255, 24, 24);
+    width: 89%;
+    
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  hr{
+      margin-left: 20px;
+      margin-right: 20px;
+      
+  }
+
+  .exp-link{
+      text-decoration:none;
+      
+      
+  }
+
+  @media only screen and  (max-width:1000px)
+  {
+      .main_skills{
+          display: flex;
+          flex-wrap: wrap;
+      }
+      .main_exp{
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      nav .navbar .brand{
+            display: none;
+      }
+
+  }
+
+
+  .main{
+    height: 100vh;
+  }
+
+
+
